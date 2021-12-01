@@ -11,7 +11,7 @@ def print_program_info():
 if __name__ == '__main__':
     print_program_info()
     # Change IP address if needed
-    object = Server("13.58.74.211")
+    object = Server("Enter IP address of your server")
     # Call Ping and paramiko methods and print the results
     print(Server.ping(object))
     Server.paramiko(object)
